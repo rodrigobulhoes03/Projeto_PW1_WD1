@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Criar Conta</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="registar-container">
+    <h2>Criar Conta</h2>
+    <form action="../controllers/process_register.php" method="POST">
+      <input type="text" name="nome" placeholder="Nome completo" required>
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Palavrapasse" required>
+      <button type="submit">Criar Conta</button>
+    </form>
+    <a href="login.html" class="botao-voltar">Voltar ao Login</a>
+  </div>
+</body>
+</html>

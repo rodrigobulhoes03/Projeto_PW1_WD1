@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Perfil</h2>
+    <a href="home_page.html" class="home-link">Ir para Homepage</a>
+    <a href="perfil.html" class="perfil-link">Ir para Perfil</a>
+    <a href="../controllers/logout.php" class="logout">Terminar Seção</a>
+  </div>
+
+  <!-- Conteúdo principal -->
+  <div class="main-content">
+    <h1>Perfil</h1>
+    <h2>Enviar imagem</h2>
+    <form action="../controllers/process_upload.php" method="POST" enctype="multipart/form-data">
+      <input type="file" name="foto" accept="image/*" required>
+      <button type="submit">Upload</button>
+    </form>
+  </div>
+</body>
+</html>
