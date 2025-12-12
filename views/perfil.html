@@ -20,6 +20,7 @@
     <h2>Enviar imagem</h2>
     <form action="../controllers/process_upload.php" method="POST" enctype="multipart/form-data">
       <input type="file" name="foto" accept="image/*" required>
+      <input type="text" name="descricao" placeholder="Descrição da imagem" required>
       <button type="submit">Upload</button>
     </form>
   </div>

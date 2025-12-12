@@ -1,19 +1,9 @@
-Girino|../uploads/1765196231_BAM-UAc.jpg
-Girino|../uploads/1765196239_MVC.png
-Girino|../uploads/1765196337_BAM-UAc.jpg
-Vitor|../uploads/1765199253_MVC.png
-Vitor|../uploads/1765199262_Sem título.jpg
-Vitor|../uploads/1765209557_MVC.png
-Vitor|../uploads/1765210076_Sem título.jpg
-Girino|../uploads/1765213786_BAM-UAc.jpg
-Bi|../uploads/1765293840_TDD.jpg
-Al|../uploads/1765294094_Captura de ecrã 2025-09-23 094803.png
-Mi|../uploads/1765294681_So para bircar.png
-Mi|../uploads/1765294705_Sem título.jpg
-Mi|../uploads/1765296357_Exe 11.png
-Fot|../uploads/1765372693_Captura de ecrã 2025-10-20 091012.png
-Pe|../uploads/1765376750_Captura de ecrã 2025-09-21 153044.png
-Ogrande|../uploads/1765467529_Captura de ecrã 2025-10-21 111401.png
-Ogrande|../uploads/1765467550_Captura de ecrã 2025-10-12 165733.png
-Girino|../uploads/1765497282_Captura de ecrã 2025-10-20 105417.png
-Girino|../uploads/1765503631_Captura de ecrã 2025-09-22 141451.png
+Relva|../uploads/1765565277_Captura de ecrã 2025-09-21 153044.png|Teste da descrição|2|Girino,Mi
+Relva|../uploads/1765566739_Captura de ecrã 2025-09-21 152858.png|Definição|0|
+Girino|../uploads/1765567187_Captura de ecrã 2025-10-15 234800.png|dfhkkjddfdffdfkjhj|1|Girino
+Mi|../uploads/1765567626_Captura de ecrã 2025-10-11 190931.png|Um gráfico muito bonito|0|
+Mi|../uploads/1765569913_Captura de ecrã 2025-11-04 011033.png|dfghyjukio|0|
+Mi|../uploads/1765571751_Captura de ecrã 2025-09-15 151438.png|asd|0|
+Mi|../uploads/1765571761_Captura de ecrã 2025-09-20 155502.png|asdf|0|
+Mi|../uploads/1765571770_Captura de ecrã 2025-09-22 141451.png|asdfad|0|
+Mi|../uploads/1765571794_Captura de ecrã 2025-09-21 153044.png|dsgafgas|0|

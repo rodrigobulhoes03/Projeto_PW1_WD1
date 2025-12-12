@@ -1,39 +1,22 @@
 <?php
 session_start();
+header('Content-Type: application/json; charset=utf-8');
+
+if (!isset($_SESSION['username'])) {
+    http_response_code(401);
+    echo json_encode(['error' => 'Utilizador não autenticado.']);
+    exit();
+}
 
 $diretorio = "../uploads/";
-$imagens = glob($diretorio . "*");
+$permitidos = ['jpg','jpeg','png','gif','webp'];
+$images = [];
 
-// Start output buffering
-ob_start();
-?>
+foreach (glob($diretorio . "*") as $ficheiro) {
+    $ext = strtolower(pathinfo($ficheiro, PATHINFO_EXTENSION));
+    if (in_array($ext, $permitidos)) {
+        $images[] = $ficheiro;
+    }
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Gallery</title>
-    <link rel="stylesheet" href="../styles.css">
-</head>
-<body>
-    <div class="card-container">
-        <h1>Image Gallery</h1>
-        <div class="galeria" id="imageGallery">
-            <?php foreach ($imagens as $imagem): ?>
-                <div class="imagem-card">
-                    <img src="<?php echo $imagem; ?>" alt="Image">
-                </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-</body>
-</html>
-
-<?php
-// Capture the output into a variable
-$output = ob_get_clean();
-
-// Output the buffered content
-echo $output;
-?>
+echo json_encode($images);
