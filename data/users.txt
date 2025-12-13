@@ -8,3 +8,4 @@ Constança |Fot|constanca@gmail.com|$2y$10$ePq0t0Ee/pge1XT/OSd5KOSor0cg0owBYj.Nm
 Pedro|Pe|pedro@gmail.com|$2y$10$5CaNP2n1MugSqEm5dJtwW.lP0Rgl/GZhNDjLmLciFa6g56q8rso9S
 Alexander|Ogrande|ogrande@gmail.com|$2y$10$KqPhd8ZQl5zOsjqZwq7KteKSaiCQkOj3O8WVNKHd6RJ4Tb4YvtXCa
 Vitor Bulhões|Bulhões|bulhoes@gamil.com|$2y$10$n6OK.nIT3fi.K84uQOdLTetwbq.RBVxdenQT/CJd0OahYztANAw/u
+Marco Paulo|Paulo|marco@gmail.com|$2y$10$V8BTS6v0Wb2uKaapc5gKd.tbHmrG92dWzd8DuBzMonm3mjxTJKUw2

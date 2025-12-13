@@ -10,7 +10,6 @@ if (!isset($_SESSION['username'])) {
 
 $diretorio = "../uploads/";
 $all = array_values(array_diff(scandir($diretorio), ['.', '..']));
-$permitidos = ['jpg','jpeg','png','gif','webp'];
 $images = [];
 foreach ($all as $ficheiro) {
     $ext = strtolower(pathinfo($ficheiro, PATHINFO_EXTENSION));
