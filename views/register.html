@@ -6,16 +6,36 @@
   <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-  <div class="registar-container">
+  <div class="auth-page">
+  <div class="auth-card colored registar-container">
+    <div class="card-header">
+      <div class="logo" style="width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg, var(--brand-500), var(--brand-700))"></div>
+      <div style="font-weight:700">PicShare</div>
+    </div>
     <h2>Criar Conta</h2>
     <form action="../controllers/process_register.php" method="POST">
-      <input type="text" name="nome" placeholder="Nome completo" required>
-      <input type="text" name="username" placeholder="Username" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <input type="password" name="password" placeholder="Palavrapasse" required>
-      <button type="submit">Criar Conta</button>
+      <div class="form-field">
+        <label for="nome">Nome completo</label>
+        <input id="nome" type="text" name="nome" placeholder="ex: João Silva" required>
+      </div>
+      <div class="form-field">
+        <label for="username">Username</label>
+        <input id="username" type="text" name="username" placeholder="ex: joaosilva" required>
+      </div>
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="ex: joao@email.com" required>
+      </div>
+      <div class="form-field">
+        <label for="password">Palavrapasse</label>
+        <input id="password" type="password" name="password" placeholder="••••••••" required>
+      </div>
+      <div class="auth-actions">
+        <button type="submit" class="btn success">Criar Conta</button>
+        <a href="login.html" class="btn link botao-voltar">Voltar ao Login</a>
+      </div>
     </form>
-    <a href="login.html" class="botao-voltar">Voltar ao Login</a>
+  </div>
   </div>
 </body>
 </html>

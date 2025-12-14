@@ -6,23 +6,60 @@
   <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-  <!-- Sidebar -->
-  <div class="sidebar">
-    <h2>Perfil</h2>
-    <a href="home_page.html" class="home-link">Ir para Homepage</a>
-    <a href="perfil.html" class="perfil-link">Ir para Perfil</a>
-    <a href="../controllers/logout.php" class="logout">Terminar Seção</a>
-  </div>
+  <div class="app-shell">
+    <aside class="sidebar-modern">
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          <div style="font-weight:700">PicShare</div>
+          <small style="color:#9ca3af">Perfil do utilizador</small>
+        </div>
+      </div>
+      <a href="home_page.html">Início</a>
+      <a href="perfil.html" class="active">Perfil</a>
+      <a href="../controllers/logout.php">Terminar Sessão</a>
+    </aside>
 
-  <!-- Conteúdo principal -->
-  <div class="main-content">
-    <h1>Perfil</h1>
-    <h2>Enviar imagem</h2>
-    <form action="../controllers/process_upload.php" method="POST" enctype="multipart/form-data">
-      <input type="file" name="foto" accept="image/*" required>
-      <input type="text" name="descricao" placeholder="Descrição da imagem" required>
-      <button type="submit">Upload</button>
-    </form>
+    <main>
+      <div class="topbar">
+        <div style="font-weight:600">Bem-vindo</div>
+        <div class="actions">
+          <a href="home_page.html" class="btn secondary">Ver Galeria</a>
+        </div>
+      </div>
+
+      <div class="content">
+        <div style="display:grid; grid-template-columns:1fr; gap:32px; max-width:900px">
+          <section>
+            <h1>Enviar imagem</h1>
+            <form action="../controllers/process_upload.php" method="POST" enctype="multipart/form-data" style="max-width:520px">
+              <div class="form-field">
+                <label for="foto">Imagem</label>
+                <input id="foto" type="file" name="foto" accept="image/*" required>
+              </div>
+              <div class="form-field">
+                <label for="descricao">Descrição</label>
+                <input id="descricao" type="text" name="descricao" placeholder="Breve descrição da imagem" required>
+              </div>
+              <button type="submit" class="btn success">Upload</button>
+            </form>
+          </section>
+
+          <section>
+            <h1>Gestão de perfil</h1>
+            <div style="display:flex; gap:12px">
+              <a href="perfil_editar.html" class="btn">Editar perfil</a>
+            </div>
+          </section>
+
+          <section>
+            <h1>Favoritos</h1>
+            <div class="gallery-grid" id="likedGallery"></div>
+          </section>
+        </div>
+        <script src="create_liked_cards.js"></script>
+      </div>
+    </main>
   </div>
 </body>
 </html>

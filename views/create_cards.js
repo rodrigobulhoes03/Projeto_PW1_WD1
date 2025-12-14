@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const gallery = document.getElementById('imageGallery');
             images.forEach(image => {
                 const card = document.createElement('div');
-                card.className = 'image-card';
+                card.className = 'image-card-modern';
                 card.dataset.imageId = image.id;
                 
 
@@ -18,6 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 img.src = image.path; 
                 img.alt = image.description;
                 card.appendChild(img);
+
+                // Navegar para a página de detalhe ao clicar na imagem
+                img.style.cursor = 'pointer';
+                img.addEventListener('click', () => {
+                    window.location.href = 'photo.html?id=' + image.id;
+                });
 
                 const description = document.createElement('p');
                 description.className = 'image-description';
@@ -29,16 +35,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const heartIcon = document.createElement('span');
                 heartIcon.className = 'favorite-icon';
-                heartIcon.innerHTML = '<i class="fa-regular fa-heart"></i>';
+                heartIcon.setAttribute('role', 'button');
+                heartIcon.setAttribute('aria-label', 'Marcar como favorito');
+                heartIcon.textContent = '♡';
 
                 if (image.is_favorite) {
-                    heartIcon.innerHTML = '<i class="fa-solid fa-heart"></i>';
                     heartIcon.classList.add('is-favorite');
+                    heartIcon.textContent = '♥';
                 } else {
-                    heartIcon.innerHTML = '<i class="fa-regular fa-heart"></i>';
+                    heartIcon.textContent = '♡';
                 }
 
-                heartIcon.addEventListener('click', () => {
+                heartIcon.addEventListener('click', (e) => {
+                    // Evita navegar quando clicar no coração
+                    e.stopPropagation();
                     fetch('../controllers/toggle_favorite.php', {
                         method: 'POST',
                         headers: {
@@ -53,10 +63,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
                             if (data.is_favorite) {
                                 heartIcon.classList.add('is-favorite');
-                                heartIcon.innerHTML = '<i class="fa-solid fa-heart"></i>';
+                                heartIcon.textContent = '♥';
                             } else {
                                 heartIcon.classList.remove('is-favorite');
-                                heartIcon.innerHTML = '<i class="fa-regular fa-heart"></i>';
+                                heartIcon.textContent = '♡';
                             }
                             // Atualizar a contagem de votos
                             voteCount.textContent = data.new_votes;

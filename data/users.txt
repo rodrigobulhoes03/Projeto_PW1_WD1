@@ -11,3 +11,4 @@ Vitor Bulhões|Bulhões|bulhoes@gamil.com|$2y$10$n6OK.nIT3fi.K84uQOdLTetwbq.RBVx
 Marco Paulo|Paulo|marco@gmail.com|$2y$10$V8BTS6v0Wb2uKaapc5gKd.tbHmrG92dWzd8DuBzMonm3mjxTJKUw2
 Oliveira|Ol|oliveira@gmail.com|$2y$10$vtkrE7Hh2/uJAFJG2e3i6Oe8wxhVyuQR4p8CXuQcT47AmspN81TF6
 Otavio|Id|itavio@gmail.com|$2y$10$vooiKxzYoNDcdK1cMAYGkuW8QLizsZXmwIHXydjFJ9NEHh20o7bMW
+pedro|pedro|pedro@uac.pt|$2y$10$8Q2jbPBMlvB2If5LQnqkKuePCEnv4MmyVDa1cmG2Nv7GN85oP70/6
