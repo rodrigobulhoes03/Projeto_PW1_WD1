@@ -9,7 +9,6 @@ if (!isset($_SESSION['username'])) {
 }
 
 $diretorio = "../uploads/";
-$permitidos = ['jpg','jpeg','png','gif','webp'];
 $images = [];
 
 foreach (glob($diretorio . "*") as $ficheiro) {
