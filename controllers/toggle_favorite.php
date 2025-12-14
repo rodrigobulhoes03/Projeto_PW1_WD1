@@ -24,16 +24,13 @@ $isFavorite = false;
 $newVotes = 0;
 
 foreach ($lines as $index => $line) {
-    // Novo formato: Username|Caminho|Descrição|Votos|Utilizadores_que_favoritaram
     $parts = explode("|", $line);
     
-    // Ignorar linhas vazias ou mal formatadas
     if (count($parts) < 4) {
         $newLines[] = $line;
         continue;
     }
 
-    // O ID da imagem é o índice da linha (começando em 0)
     if ($index === $imageId) {
         $found = true;
         $imageUsername = $parts[0];
@@ -42,22 +39,18 @@ foreach ($lines as $index => $line) {
         $votes = (int)$parts[3];
         $favoritedUsers = isset($parts[4]) ? array_filter(explode(",", $parts[4])) : [];
 
-        // Verificar se o utilizador já favoritou
         $userIndex = array_search($username, $favoritedUsers);
 
         if ($userIndex !== false) {
-            // Remover favorito
             unset($favoritedUsers[$userIndex]);
             $newVotes = $votes - 1;
             $isFavorite = false;
         } else {
-            // Adicionar favorito
             $favoritedUsers[] = $username;
             $newVotes = $votes + 1;
             $isFavorite = true;
         }
         
-        // Reconstruir a linha
         $favoritedUsersString = implode(",", array_unique($favoritedUsers));
         $newLine = $imageUsername . "|" . $imagePath . "|" . $imageDescription . "|" . $newVotes . "|" . $favoritedUsersString;
         $newLines[] = $newLine;
@@ -67,7 +60,6 @@ foreach ($lines as $index => $line) {
 }
 
 if ($found) {
-    // Reescrever o ficheiro com as linhas atualizadas
     file_put_contents($file, implode("\n", $newLines) . "\n");
     echo json_encode([
         'success' => true, 

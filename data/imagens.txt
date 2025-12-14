@@ -1,12 +1,12 @@
-Relva|../uploads/1765565277_Captura de ecrã 2025-09-21 153044.png|Teste da descrição|2|Girino,Mi
+Relva|../uploads/1765565277_Captura de ecrã 2025-09-21 153044.png|Teste da descrição|3|Girino,Mi,Id
 Relva|../uploads/1765566739_Captura de ecrã 2025-09-21 152858.png|Definição|1|Girino
 Girino|../uploads/1765567187_Captura de ecrã 2025-10-15 234800.png|dfhkkjddfdffdfkjhj|1|Girino
-Mi|../uploads/1765567626_Captura de ecrã 2025-10-11 190931.png|Um gráfico muito bonito|1|Girino
+Mi|../uploads/1765567626_Captura de ecrã 2025-10-11 190931.png|Um gráfico muito bonito|2|Girino,Id
 Mi|../uploads/1765569913_Captura de ecrã 2025-11-04 011033.png|dfghyjukio|1|Girino
 Mi|../uploads/1765571751_Captura de ecrã 2025-09-15 151438.png|asd|1|Girino
 Mi|../uploads/1765571761_Captura de ecrã 2025-09-20 155502.png|asdf|1|Girino
 Mi|../uploads/1765571770_Captura de ecrã 2025-09-22 141451.png|asdfad|1|,Girino
-Mi|../uploads/1765571794_Captura de ecrã 2025-09-21 153044.png|dsgafgas|1|Girino
+Mi|../uploads/1765571794_Captura de ecrã 2025-09-21 153044.png|dsgafgas|2|Girino,Id
 
 Ol|../uploads/1765649292_Captura de ecrã 2025-11-04 010026.png|Teste 69|1|,Girino
 Girino|../uploads/1765650269_Captura de ecrã 2025-10-31 004238.png|pçok|0|
@@ -14,3 +14,5 @@ Girino|../uploads/1765655171_Captura de ecrã 2025-10-09 160634.png|uuuuuu|0|
 Girino|../uploads/1765667197_Captura de ecrã 2025-11-22 150401.png|Verificação|0|
 Girino|../uploads/1765668047_Captura de ecrã 2025-11-17 165843.png|dxkjhvhvfxiufddfhu|1|Girino
 Girino|../uploads/1765674354_Captura de ecrã 2025-10-01 153422.png|uma descricao|1|Girino
+Id|../uploads/1765728183_Captura de ecrã 2025-11-06 144954.png|Fultter erro|1|Girino
+Girino|../uploads/1765732323_Captura de ecrã 2025-10-30 091327.png|Teste|0|

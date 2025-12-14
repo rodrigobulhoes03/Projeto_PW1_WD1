@@ -14,11 +14,10 @@ $lines = file($file, FILE_IGNORE_NEW_LINES);
 $images = [];
 
 foreach ($lines as $index => $line) {
-    // Novo formato: Username|Caminho|Descrição|Votos|Utilizadores_que_favoritaram
     $parts = explode("|", $line);
     
     if (count($parts) < 4) {
-        continue; // Ignorar linhas mal formatadas
+        continue; 
     }
 
     $imageUsername = $parts[0];
@@ -27,11 +26,10 @@ foreach ($lines as $index => $line) {
     $votes = (int)$parts[3];
     $favoritedUsers = isset($parts[4]) ? array_filter(explode(",", $parts[4])) : [];
     
-    // Verificar se o utilizador atual favoritou esta imagem
     $isFavorite = in_array($username, $favoritedUsers);
 
     $images[] = [
-        'id' => $index, // O ID da imagem é o índice da linha
+        'id' => $index, 
         'username' => $imageUsername,
         'path' => $imagePath,
         'description' => $imageDescription,
@@ -40,7 +38,6 @@ foreach ($lines as $index => $line) {
     ];
 }
 
-// Requisito: Galeria organizada por maior número de votos (favoritos)
 usort($images, function($a, $b) {
     return $b['votes'] <=> $a['votes'];
 });
