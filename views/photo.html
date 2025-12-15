@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Fotografia</title>
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css?v=16">
 </head>
 <body>
   <div class="app-shell">
@@ -17,23 +17,28 @@
       </div>
       <a href="home_page.html" class="active">Início</a>
       <a href="perfil.html">Perfil</a>
-      <a href="../controllers/logout.php">Terminar Sessão</a>
+      <a href="../controllers/logout.php" class="logout">Terminar Sessão</a>
     </aside>
 
     <main>
       <div class="topbar">
         <div style="font-weight:600">Detalhe da foto</div>
         <div class="actions">
-          <a href="home_page.html" class="btn secondary">Voltar à galeria</a>
+            <a href="home_page.html" class="btn secondary">Voltar à galeria</a>
         </div>
       </div>
 
-      <div class="content photo-detail" id="photoContent">
-        <!-- conteúdo gerado por JS -->
+      <div class="content">
+        <div class="content-actions" style="display:flex; align-items:center; justify-content:flex-start; margin-bottom:16px;">
+          <a href="perfil.html" class="btn dark">Voltar ao perfil</a>
+        </div>
+        <div class="photo-detail" id="photoContent">
+        
+        </div>
       </div>
     </main>
   </div>
 
-  <script src="photo.js"></script>
+  <script src="../assets/js/photo.js"></script>
 </body>
 </html>

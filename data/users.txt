@@ -12,3 +12,6 @@ Marco Paulo|Paulo|marco@gmail.com|$2y$10$V8BTS6v0Wb2uKaapc5gKd.tbHmrG92dWzd8DuBz
 Oliveira|Ol|oliveira@gmail.com|$2y$10$vtkrE7Hh2/uJAFJG2e3i6Oe8wxhVyuQR4p8CXuQcT47AmspN81TF6
 Otavio|Id|itavio@gmail.com|$2y$10$vooiKxzYoNDcdK1cMAYGkuW8QLizsZXmwIHXydjFJ9NEHh20o7bMW
 pedro|pedro|pedro@uac.pt|$2y$10$8Q2jbPBMlvB2If5LQnqkKuePCEnv4MmyVDa1cmG2Nv7GN85oP70/6
+joao das motas|joao|joao@uac.pt|$2y$10$M8JNh5vwChrAA2cIzdSYHey7Pzh4WVtJigwltC77da/cDUx25d87W
+joe|joe|joe@uac.pt|$2y$10$jD/VZyifbwx.YMeO584Ae.3YUTcQ2ALFUxGWGXuP5KUEf/TYdwhV.
+red|red|red@uac.pt|$2y$10$s.kg9WbfpEIaPiyXz5UkyOL2vvZ9HfyJjOeGBwYhfj574wFKINv7C

@@ -13,3 +13,7 @@ foreach ($users as $linha) {
         exit();
     }
 }
+
+// Fall back to login page on failed authentication
+header("Location: ../views/login.html?error=1");
+exit();

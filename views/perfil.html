@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Perfil</title>
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css?v=16">
 </head>
 <body>
   <div class="app-shell">
@@ -17,22 +17,29 @@
       </div>
       <a href="home_page.html">Início</a>
       <a href="perfil.html" class="active">Perfil</a>
-      <a href="../controllers/logout.php">Terminar Sessão</a>
+      <a href="../controllers/logout.php" class="logout">Terminar Sessão</a>
     </aside>
 
     <main>
       <div class="topbar">
-        <div style="font-weight:600">Bem-vindo</div>
+        <div style="font-weight:600">Perfil</div>
         <div class="actions">
           <a href="home_page.html" class="btn secondary">Ver Galeria</a>
         </div>
       </div>
 
       <div class="content">
-        <div style="display:grid; grid-template-columns:1fr; gap:32px; max-width:900px">
-          <section>
-            <h1>Enviar imagem</h1>
-            <form action="../controllers/process_upload.php" method="POST" enctype="multipart/form-data" style="max-width:520px">
+        <div class="profile-grid">
+          <section class="surface-card">
+            <h1>Gestão de perfil</h1>
+            <div style="display:flex; gap:12px">
+              <a href="perfil_editar.html" class="btn">Editar perfil</a>
+            </div>
+          </section>
+
+          <section class="surface-card">
+            <h1>Upload</h1>
+            <form action="../controllers/process_upload.php" method="POST" enctype="multipart/form-data" class="upload-form">
               <div class="form-field">
                 <label for="foto">Imagem</label>
                 <input id="foto" type="file" name="foto" accept="image/*" required>
@@ -44,20 +51,13 @@
               <button type="submit" class="btn success">Upload</button>
             </form>
           </section>
-
-          <section>
-            <h1>Gestão de perfil</h1>
-            <div style="display:flex; gap:12px">
-              <a href="perfil_editar.html" class="btn">Editar perfil</a>
-            </div>
-          </section>
-
-          <section>
-            <h1>Favoritos</h1>
-            <div class="gallery-grid" id="likedGallery"></div>
-          </section>
         </div>
-        <script src="create_liked_cards.js"></script>
+
+        <section>
+          <h1>Favoritos</h1>
+          <div class="gallery-grid" id="likedGallery" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));"></div>
+        </section>
+        <script src="../assets/js/create_liked_cards.js"></script>
       </div>
     </main>
   </div>

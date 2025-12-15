@@ -1,18 +1,13 @@
-Relva|../uploads/1765565277_Captura de ecrã 2025-09-21 153044.png|Teste da descrição|4|Girino,Mi,Id,pedro
-Relva|../uploads/1765566739_Captura de ecrã 2025-09-21 152858.png|Definição|1|Girino
-Girino|../uploads/1765567187_Captura de ecrã 2025-10-15 234800.png|dfhkkjddfdffdfkjhj|1|Girino
-Mi|../uploads/1765567626_Captura de ecrã 2025-10-11 190931.png|Um gráfico muito bonito|3|Girino,Id,pedro
-Mi|../uploads/1765569913_Captura de ecrã 2025-11-04 011033.png|dfghyjukio|1|Girino
-Mi|../uploads/1765571751_Captura de ecrã 2025-09-15 151438.png|asd|1|Girino
-Mi|../uploads/1765571761_Captura de ecrã 2025-09-20 155502.png|asdf|1|Girino
-Mi|../uploads/1765571770_Captura de ecrã 2025-09-22 141451.png|asdfad|1|,Girino
-Mi|../uploads/1765571794_Captura de ecrã 2025-09-21 153044.png|dsgafgas|3|Girino,Id,pedro
 
-Ol|../uploads/1765649292_Captura de ecrã 2025-11-04 010026.png|Teste 69|1|,Girino
-Girino|../uploads/1765650269_Captura de ecrã 2025-10-31 004238.png|pçok|0|
-Girino|../uploads/1765655171_Captura de ecrã 2025-10-09 160634.png|uuuuuu|0|
-Girino|../uploads/1765667197_Captura de ecrã 2025-11-22 150401.png|Verificação|0|
-Girino|../uploads/1765668047_Captura de ecrã 2025-11-17 165843.png|dxkjhvhvfxiufddfhu|1|Girino
-Girino|../uploads/1765674354_Captura de ecrã 2025-10-01 153422.png|uma descricao|1|Girino
-Id|../uploads/1765728183_Captura de ecrã 2025-11-06 144954.png|Fultter erro|1|Girino
-Girino|../uploads/1765732323_Captura de ecrã 2025-10-30 091327.png|Teste|0|
+pedro|../uploads/1765773053_images (7).jpg|Pintura de 11 de Outubro.|0|
+pedro|../uploads/1765773183_images (3).jpg|Backyard pic|0|
+pedro|../uploads/1765773208_transferir (1).jpg|Férias no Arizona|0|
+pedro|../uploads/1765773257_images (1).jpg|Cascata do aveiro|0|
+pedro|../uploads/1765773313_images (2).jpg|Cascata da ribeira seca|0|
+pedro|../uploads/1765773607_images (11).jpg|dakar 2021|1|pedro
+pedro|../uploads/1765773641_images (16).jpg|Grupo B Portugal|4|joao,joe,red,pedro
+pedro|../uploads/1765773719_images (9).jpg|João das motas de pernas para o ar|1|pedro
+pedro|../uploads/1765773736_transferir (2).jpg|Audi 4|3|pedro,joao,joe
+pedro|../uploads/1765773764_images (8).jpg|yamaha|3|pedro,joao,joe
+pedro|../uploads/1765773800_transferir (5).jpg|Epic|2|joao,pedro
+pedro|../uploads/1765773880_images (10).jpg|Easy win|2|pedro,joao
